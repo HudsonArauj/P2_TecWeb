@@ -1,0 +1,65 @@
+.card {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    margin: 10px 5px;
+    padding: 10px;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+    border-radius: 5px;
+    font-family: "Permanent Marker", cursive;
+    background-color:#D9D9D9
+    ;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-family: "Permanent Marker",cursive;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    color: #4c4c4c;
+  }
+
+
+  .button{
+    background-color: #F20C0C;
+    color:white;
+    border-radius: 10px;
+    width: auto;
+    
+  }
+  .button2{
+    background-color: #F20C0C;
+    color:white;
+    border-radius: 10px;
+    width: auto;
+    margin-left: 1000px;
+    margin-top: 15px;
+    margin-bottom: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+
+  }
+
+  .container{
+    display:flex;
+    /* flex-direction:column; */
+    /* align-items:center; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;  
+    align-content: center;
+    margin: 0.3rem 1.5rem 0.3rem 1.5rem;
+  
+  }
